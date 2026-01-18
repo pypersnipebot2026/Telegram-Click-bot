@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"  # Railway's default builder
+
+[deploy]
+startCommand = "python bot.py"
+healthcheckPath = "/"  # Not needed for workers, but optional
